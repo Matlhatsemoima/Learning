@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkillSphere Learning Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-icon">
+        <span class="cap-top"></span>
+        <span class="cap-crown"></span>
+        <span class="cap-dot"></span>
+      </div>
+      <div>
+        <h1>SkillSphere</h1>
+        <p>Learn • Practice • Achieve</p>
+      </div>
+    </div>
+
+    <nav>
+      <button class="nav-item active"><span class="nav-icon">⌂</span><span>Dashboard</span></button>
+      <button class="nav-item"><span class="nav-icon">▣</span><span>My Courses</span></button>
+      <button class="nav-item"><span class="nav-icon">▤</span><span>Practice Tests</span></button>
+      <button class="nav-item"><span class="nav-icon">♕</span><span>Achievements</span></button>
+      <button class="nav-item"><span class="nav-icon">▦</span><span>Calendar</span></button>
+      <button class="nav-item"><span class="nav-icon">✉</span><span>Messages</span><b class="badge">3</b></button>
+      <button class="nav-item"><span class="nav-icon">⚙</span><span>Settings</span></button>
+      <button class="nav-item logout"><span class="nav-icon">↪</span><span>Logout</span></button>
+    </nav>
+
+    <div class="dream-card">
+      <div class="dream-sun"></div>
+      <div class="trophy">🏆</div>
+      <strong>Dream Big,<br>Learn More,<br>Achieve More.</strong>
+    </div>
+  </aside>
+
+  <main>
+    <header>
+      <div></div>
+      <div class="header-actions">
+        <button class="bell" aria-label="Notifications">♟<b>3</b></button>
+        <div class="avatar">TM</div>
+        <div class="profile"><strong>Thandwe Mokoena</strong><span>Student</span></div>
+        <span class="chevron">⌄</span>
+      </div>
+    </header>
+
+    <section class="content">
+      <div class="top-grid">
+        <article class="hero-card">
+          <div class="hero-copy">
+            <h2>Your Learning<br>Journey Starts Here!</h2>
+            <p>Build skills, track progress,<br>and unlock your potential.</p>
+            <button class="primary">Start Learning <span>→</span></button>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="globe">🌐</div>
+            <div class="robot">
+              <div class="antenna"></div>
+              <div class="ear left"></div>
+              <div class="ear right"></div>
+              <div class="head">
+                <div class="eye left-eye"></div>
+                <div class="eye right-eye"></div>
+              </div>
+              <div class="body"><span>◈</span></div>
+              <div class="book">▰</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="progress-card">
+          <h3>Your Progress</h3>
+          <div class="progress-ring">
+            <div class="ring"><span>78%</span></div>
+            <ul>
+              <li><i class="green">▣</i> Courses <b>5/6</b></li>
+              <li><i class="green">▣</i> Quizzes <b>8/10</b></li>
+              <li><i class="green">▣</i> Projects <b>2/3</b></li>
+            </ul>
+          </div>
+          <button class="details">View Details <span>→</span></button>
+        </article>
+      </div>
+
+      <div class="middle-grid">
+        <section class="courses">
+          <div class="section-title">
+            <h3>Continue Learning</h3>
+            <button>See All <span>→</span></button>
+          </div>
+          <div class="course-list">
+            <article class="course-card">
+              <div class="course-image code"><span>&lt;/&gt;</span></div>
+              <h4>Web Development</h4>
+              <div class="course-progress"><i style="width:80%"></i><b>80%</b></div>
+              <button>Continue <span>→</span></button>
+            </article>
+            <article class="course-card">
+              <div class="course-image data"><span>▥</span></div>
+              <h4>Data Science</h4>
+              <div class="course-progress"><i style="width:60%"></i><b>60%</b></div>
+              <button>Continue <span>→</span></button>
+            </article>
+            <article class="course-card">
+              <div class="course-image python"><span>🐍</span></div>
+              <h4>Python Programming</h4>
+              <div class="course-progress"><i style="width:90%"></i><b>90%</b></div>
+              <button>Continue <span>→</span></button>
+            </article>
+            <article class="course-card">
+              <div class="course-image design"><span>🎨</span></div>
+              <h4>Graphic Design</h4>
+              <div class="course-progress"><i style="width:70%"></i><b>70%</b></div>
+              <button>Continue <span>→</span></button>
+            </article>
+          </div>
+        </section>
+
+        <aside class="events-card">
+          <div class="section-title">
+            <h3>▦ &nbsp;Upcoming Events</h3>
+            <button>See All <span>→</span></button>
+          </div>
+          <div class="events">
+            <div class="event"><i class="purple"></i><p><strong>Online Workshop</strong><span>(Advanced Python)</span><b>Today • 4:00 PM</b></p></div>
+            <div class="event"><i class="cyan"></i><p><strong>Assignment Deadline</strong><span>(Web Project)</span><b>Tomorrow • 11:59 PM</b></p></div>
+            <div class="event"><i class="orange"></i><p><strong>Study Group Session</strong><span>Sat, 24 May • 10:00 AM</span></p></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="bottom-grid">
+        <section class="achievements-card">
+          <div class="section-title">
+            <h3>🏆 &nbsp;Achievements</h3>
+            <button>See All <span>→</span></button>
+          </div>
+          <div class="achievement-list">
+            <div><span class="medal orange-medal">★</span><b>Top Learner</b><small>Level 1</small></div>
+            <div><span class="medal blue-medal">▣</span><b>Knowledge<br>Explorer</b></div>
+            <div><span class="medal rocket-medal">🚀</span><b>Fast Learner</b></div>
+            <div><span class="medal gold-medal">♛</span><b>Course<br>Champion</b></div>
+          </div>
+        </section>
+
+        <section class="quick-card">
+          <h3>🛠 &nbsp;Quick Tools</h3>
+          <div class="quick-grid">
+            <button class="quiz">☑<b>Take a Quiz</b></button>
+            <button class="progress">▥<b>Track Progress</b></button>
+            <button class="group">♟<b>Join a Study Group</b></button>
+            <button class="resources">▱<b>Access Resources</b></button>
+          </div>
+        </section>
+
+        <aside class="quote-card">
+          <div class="quote-mark">“</div>
+          <p>Success is the sum<br>of small efforts,<br>repeated day in and<br>day out.</p>
+          <small>— Robert Collier</small>
+          <div class="quote-person">♟</div>
+        </aside>
+      </div>
+    </section>
+  </main>
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+      <h2 id="modalTitle"></h2>
+      <div id="modalBody"></div>
+    </section>
+  </div>
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
